@@ -110,7 +110,7 @@
 	#endif
 
 
-	//#define CONFIG_CONCURRENT_MODE 1
+	#define CONFIG_CONCURRENT_MODE 1
 	#ifdef CONFIG_CONCURRENT_MODE
 		//#define CONFIG_HWPORT_SWAP				//Port0->Sec , Port1 -> Pri
 		#ifdef CONFIG_RTL8812A
